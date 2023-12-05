@@ -1,0 +1,121 @@
+header {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFB6C1;
+}
+header{
+  display: block;
+}
+'Verdana', serif
+body {
+  font-family: 'Verdana', serif;
+  background-color: #DCDCDC;
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: beige;
+  border: palevioletred;
+  display: block;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:visited{
+  color: black;
+}
+#form {
+    margin: 40px 40px;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    text-align: left;
+    border: thin solid #c0a97a;
+    border-radius: 5px;
+    width: 50%;
+    display: inline-block;
+}
+.oformlenie {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    background-color: #e9e3db;
+    padding: 20px 0 20px 0;
+    margin: 20px 0 0 0;
+    width: 100%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: thin solid #c0a97a;
+}
+.formblock {
+    padding: 20px;
+}
+input {
+    margin: 10px;
+    border-radius: 5px;
+    height: 20px;
+ }
+ input {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+hr {
+    border-radius: 5px;
+    background-color: #c0a97a;
+    padding: 1px;
+    width: 670px;
+    margin: auto;
+}
+select {
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Vollkorn', serif;
+}
+#photo {
+    display: inline-block;
+}
+#images {
+    margin: 40px;
+    width: 500px;
+    height: 550px;
+    border: thin solid #c0a97a;
+    border-radius: 5px;
+    float: right;
+}
+

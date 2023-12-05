@@ -1,0 +1,299 @@
+header {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFB6C1;
+}
+header{
+  display: block;
+}
+body {
+  font-family: 'Verdana', serif;
+  background-color: #DCDCDC;
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFC0CB;
+  border: palevioletred;
+  display: block;
+}
+a {
+    text-decoration: none;
+}
+.main-title {
+    width: 100%;
+    margin: 10px auto;
+    background: antiquewhite;
+    color: saddlebrown;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: indianred;
+}
+a:link {
+  color: black;
+}
+a:visited{
+  color: black;
+}
+table {
+    width: 80%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.buket-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: #E9967A;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.Upakovka-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: #E9967A;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.Four-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: darksalmon;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.Palochka-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: darksalmon;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.Nadpis-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: darksalmon;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.Rosa-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: darksalmon;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.Sixteen-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: darksalmon;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.Twenty-wrap {
+    width: 400px;
+    margin: 20px 15px;
+    background: darksalmon;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+}
+.buket-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Upakovka-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Four-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Palochka-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Nadpis-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Rosa-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Sixteen-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Twenty-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.buket {
+    position: relative;
+    overflow: hidden;
+}
+.Upakovka {
+    position: relative;
+    overflow: hidden;
+}
+.Four {
+    position: relative;
+    overflow: hidden;
+}
+.Palochka {
+    position: relative;
+    overflow: hidden;
+}
+.Nadpis {
+    position: relative;
+    overflow: hidden;
+}
+.Rosa {
+    position: relative;
+    overflow: hidden;
+}
+.Sixteen {
+    position: relative;
+    overflow: hidden;
+}
+.Twenty {
+    position: relative;
+    overflow: hidden;
+}
+.product-price {
+    font-size: 20px;
+    color: darkred;
+    font-weight: 700;
+}
+.Klubnika-text {
+    width: 100%;
+    height: 400px;
+    margin: 10px auto;
+    background: cadetblue;
+    color: saddlebrown;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 8px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 150px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 5;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+.Klibnika-title {
+    text-decoration-line: underline;
+}
+section {
+  display: flex;
+  flex-wrap: wrap!important
+}

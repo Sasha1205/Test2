@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadacha</title>
+</head>
+<body wfd-invisible="true">
+<p>Дано вещественное число</p>
+<p>Определить, какое это число: положительное, отрицательное, ноль.</p>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+  <ul>
+    <li>
+      Для поисковика
+      <input name="q" value="search">
+    </li>
+    <li>
+      Формулировка задачи
+      <input name="formulation" value="Определить, какое это число: положительное, отрицательное, ноль.">
+    </li>
+    <li>
+      Вещественное число
+      <input id="v" name="v" type="number" value="0.01">
+    </li>
+    <li>
+      Результат решения:
+      <input name="result" value="не определен">
+    </li>
+    <li>
+      Действие 1:
+      <input id="verify" type="button" value="Проверить">
+    </li>
+    <li>
+      Действие 2:
+      <input id="send" type="button" value="Отправить">
+    </li>
+  </ul>
+</form>
+<p id="result">
+  Результат: Положительное. Отрицательное. Ноль.
+</p>
+<script src="js/vendor/zadacha.js" wfd-invisible="true"></script>
+</body>
+</html>

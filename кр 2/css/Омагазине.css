@@ -1,0 +1,177 @@
+.Омагазине-title {
+    text-decoration-line: underline;
+}
+header {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFB6C1;
+}
+header{
+  display: block;
+}
+body {
+  font-family: 'Verdana', serif;
+  background-color: darkgray;
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: beige;
+  border: palevioletred;
+  display: block;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:visited{
+  color: black;
+}
+.main-title {
+    width: 100%;
+    margin: 10px auto;
+    background: antiquewhite;
+    color: saddlebrown;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: indianred;
+}
+.opisanie {
+  width: 100%;
+  margin: 10px auto;
+  background: #ffffff;
+  color: #2e2e2e;
+  padding: 15px;
+  font-family: Georgia, serif;
+  text-align: left;
+  font-size: 18px;
+  text-transform: none;
+  border-radius: 8px;
+}
+#opisanie-shokolad {
+    font-weight: 600;
+    text-align: center;
+  color: darkred;
+}
+.Avtor-wrap {
+    width: 500px;
+    margin: 10px 15px;
+    background: palevioletred;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+}
+.Avtor {
+    position: relative;
+    overflow: hidden;
+}
+.nalichnyi-wrap {
+    width: 410px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    background: lightpink;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+}
+.card-wrap {
+    width: 410px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    background: lightpink;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+}
+.dostavka-wrap {
+    width: 410px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    background: lightpink;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+}
+.nalichnyi {
+    position: relative;
+    overflow: hidden;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+}
+.dostavka {
+    position: relative;
+    overflow: hidden;
+}
+.nalichnyi-title {
+    text-decoration: none;
+    color: darkred;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.card-title {
+    text-decoration: none;
+    color: darkred;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dostavka-title {
+    text-decoration: none;
+    color: darkred;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 150px;
+    background-color: beige;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 5;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}

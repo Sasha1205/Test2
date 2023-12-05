@@ -1,0 +1,151 @@
+body {
+  font-family: 'Verdana', serif;
+  background-color: #DCDCDC;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  display: block;
+  margin: 8px;
+}
+header {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFB6C1;
+}
+header{
+  display: block;
+}
+table {
+  width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-border-horizontal-spacing: 3px;
+    -webkit-border-vertical-spacing: 3px;
+}
+table {
+  display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: aqua;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: aqua;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+a:link {
+  color: black;
+}
+a:visited{
+  color: black;
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFC0CB;
+  border: pink;
+  display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 150px;
+    background-color: beige;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 5;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+.main-page {
+    text-decoration-line: underline;
+}
+a {
+    text-decoration: none;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.main-title {
+    width: 100%;
+    margin: 10px auto;
+    background: antiquewhite;
+    color: saddlebrown;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: indianred;
+}
+.klubnika-wrap {
+  width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.Klubnika{
+    position: relative;
+    overflow: hidden;
+}
+.Shokolad-title a {
+  text-decoration: none;
+    color: indianred;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+.Shokolad-wrap {
+  width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+#Podskazka {
+    display: inline-block;
+    position: relative;
+   }
+.Podskazka:hover ::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 20%; top: 30%;
+    background: rgba(255,255,230,0.9);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+   }
+

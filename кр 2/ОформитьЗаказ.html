@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ОформитьЗаказ</title>
+  <link href="css/ОформитьЗаказ.css" link rel="stylesheet" type="text/css">
+</head>
+<body>
+<header align="center">
+<table width="100%" border="0" cellspacing="3">
+  <tbody>
+  <tr>
+    <td colspan="2">
+      <a href="https://www.instagram.com/" target="_blank">
+      <img src="img/instagram.png.png" width="30px">
+      </a>
+      <a href="https://vk.com/" target="_blank">
+        <img src="img/vk.png" width="30px">
+      </a>
+      <a href="https://tlgrm.ru/" target="_blank">
+         <img src="img/telegram.png" width="30px">
+              </a>
+      <br>
+      <a href="https://yandex.ru/maps/"> АДРЕСА МАГАЗИНОВ </a>
+    </td>
+    <td colspan="1" align="top">
+      <img src="img/клубничка.png" height="200px">
+    </td>
+    <td colspan="2">
+      8 (907) 752-32-52
+      <br>
+      <a href="ОформитьЗаказ.html">ОФОРМИТЬ ЗАКАЗ</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%">
+      <div class="main-page">
+        <a href="index.html">ГЛАВНАЯ</a>
+      </div>
+    </td>
+    <td width="25%">
+      <a href="Клубника.html">КЛУБНИКА В ШОКОЛАДЕ</a>
+    </td>
+    <td width="25%">
+      <a href="Шоколад.html">АВТОРСКИЙ ШОКОЛАД</a>
+    </td>
+    <td width="25%">
+      <div class="dropdown">
+        <a href="Омагазине.html">О МАГАЗИНЕ</a>
+        <div class="dropdown-content">
+         <a href="Омагазине.html#premium">КАЧЕСТВО</a>
+          <a href="Омагазине.html#team">КОМАНДА</a>
+          <a href="Омагазине.html#service">СЕРВИС</a>
+          <a href="Омагазине.html#pay">ОПЛАТА</a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  </tbody>
+</table>
+</header>
+<div id="main">
+  <div id="form">
+    <form action="https://www.yandex.ru/search?" id="UserEnter" name="UserEnter" method="get" target="_self">
+      <div class="oformlenie">ОФОРМЛЕНИЕ ЗАКАЗА</div>
+      <div class="formblock">
+        <br>
+        Фамилия
+        <input type="text" placeholder="Фамилия" name="surname" value="Вартаньян">
+        <br>
+        Имя
+        <input type="text" placeholder="Имя" name="name" value="Александра">
+        <br>
+        Отчество
+        <input type="text" placeholder="Отчество" name="patronymic" value="Карэновна">
+        <br>
+        Контактный номер
+        <input type="text" placeholder="+7 999 999 99 99" name="phone">
+        <br>
+        E-mail
+        <input type="text" placeholder="E-mail@.com" name="email">
+      </div>
+      <hr>
+      <div class="formblock">
+        Что вы хотите приобрести?
+        <select>
+          <option>Букет из клубники</option>
+          <option>Коробка с клубникой</option>
+          <option>4 клубники</option>
+          <option>Клубника на палочке</option>
+          <option>Клубника с надписью</option>
+          <option>Клубника с розами</option>
+          <option>Клубника в шоколаде 16 штук</option>
+          <option>Клубника в шоколаде 20 штук</option>
+          <option>Молочный шоколад</option>
+          <option>Черный шоколад</option>
+           <option>Белый шоколад</option>
+          <option>Набор конфет 4 штуки</option>
+           <option>Набор конфет 12 штук</option>
+           <option>Набор конфет 18 штук</option>
+        </select>
+        <br>
+        Доставка в город:
+        <br>
+        <input type="radio" name="city" id="contactChoice1" value="MSK">
+        <lable for="conctactChoice1">Москва</lable>
+        <br>
+       <input type="radio" name="city" id="contactChoice2" value="SPB">
+        <lable for="conctactChoice2">Санкт-Петербург</lable>
+        <br>
+        <input type="radio" name="city" id="contactChoice3" value="Magazin">
+        <lable for="conctactChoice3">В магазине</lable>
+        <br>
+        <input type="radio" name="city" id="contactChoice4" value="Drugoe">
+        <lable for="conctactChoice4">Другой</lable>
+        <br>
+        <textarea id="textcity"></textarea>
+      </div>
+      <br>
+        Кодовое слово для подтверждения заказа
+        <input type="password" id="password" name="password">
+      <br>
+      В какой день хотите забрать заказ?
+      <input type="date" id="date" name="id">
+      <hr>
+      <div class="formblock">
+        Комментарий к заказу
+        <br>
+        <textarea id="freetext" name="textarea"></textarea>
+        </div>
+        <button type="submit">Сделать Заказ</button>
+        <button type="reset">Сбросить Заказ</button>
+        <button href="https://www.bing.com/search?">Посмотреть свой заказ</button>
+  </div>
+  </form>
+  <div id="photo">
+    <img src="img/images.jpg" id="images">
+  </div>
+</div>
+<footer>
+  <table border="0" align="center" width="80%">
+    <tbody>
+    <tr>
+      <td>
+        <a href="logo.html" target="_blank">
+        <img src="img/Клубничка.png" height="100px">
+          </a>
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/">INSTAGRAM</a>
+          </li>
+          <li>
+            <a href="https://vk.com/">VK</a>
+          </li>
+          <li>
+            <a href="https://tlgrm.ru/">TELEGRAM</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            Только свежая клубника
+          </li>
+          <li>
+            Только свежий шоколад
+          </li>
+          <li>
+            Быстрая доставка
+          </li>
+        </ul>
+      </td>
+      <td>
+        <img src="img/Клубничка.png" height="100px">
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</footer>
+
+</body>
+</html>
